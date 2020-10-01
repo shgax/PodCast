@@ -1,0 +1,36 @@
+@media screen and (min-width: 320px){
+    .about-us-image{
+        width: 50%;
+    }
+    .about-us-info{
+        margin-top: 30px;
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .about-us-flex-container{
+        display: flex;
+    }
+    .about-us-image-container{
+        width: 100%;
+    }
+    .about-us-image{
+        width: 100%;
+        margin-top: -50px;
+        margin-left: 150px;      
+        position: relative;
+    }
+    .about-us-info{
+        margin-top: 40px;
+        width: 70%;
+    }
+    .about-us-info-title{
+        margin-right: 120px;
+    }
+    .about-us-info-text{
+        margin-right: 200px;
+        margin-top: 24px;
+    }
+
+}

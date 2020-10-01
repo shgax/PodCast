@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
 <body>
-    <header>
+    <header >
         <div class="responsive-header">
         <!-- Logo -->
-        <img srcset="assets/logo.svg" class="logo">
-        
+            <div>
+            <img srcset="assets/logo.svg" class="logo">
+            </div>
             <nav class="menu">
                     <input class="button" type="checkbox" id="checkbox" />
                     <span class="sandwich"></span>
@@ -31,21 +32,21 @@
         </div>
     </header>
     
-    <main>
+    <main id="">
         <article>
             <h1>Hello <span>world</span> pale blue dot.</h1>
-            <p>Un podcast que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 dias.</p>
+            <p>El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
             <button class="btn">Conoce más</button>
         </article>
 
         <section id="chapter">
-            <div>
+            <div class="chapter-detail">
                 <h2>Episodios</h2>
-                <div>
+                <div class="chapter-grid">
                     <iframe src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"></iframe>
                     <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"></iframe>
                 </div>
-                <div>
+                <div class="chapter-grid">
                     <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"></iframe>
                     <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"></iframe>
                 </div>
@@ -53,20 +54,20 @@
         </section>
 
         <section id="about-us">
-            <div>
-                <div>
-                    <img src="assets/phone.png" alt="Joseph C. Towler Jr image">
+            <div class="about-us-flex-container">
+                <div class="about-us-image-container">
+                    <img class="about-us-image" src="assets/phone.png" alt="Joseph C. Towler Jr image">
                 </div>
-                <div>
-                    <h2>De donde venimos</h2>
-                    <p>Our posturings, our imagined self-importance, the delusion that we have some privileged position in the universe, are challenged by this point of pale light. <br> <br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, the is no hint that help will come from elsewhere to save us from ourselves.</p>
+                <div class="about-us-info">
+                    <h2 class="about-us-info-title">De donde venimos</h2>
+                    <p class="about-us-info-text">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the universe, are challenged by this point of pale light. <br> <br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, the is no hint that help will come from elsewhere to save us from ourselves.</p>
                 </div>
             </div>
         </section>
 
         <section id="interview">
             <h2>Invitadas/os Estelares</h2>
-            <div>
+            <div class="interview-grid-container">
                 <img src="assets/grace-hopper.png" alt="Grace Hopper">
                 <img src="assets/Katie-Bouman.png" alt="Katie Bouman">
                 <img src="assets/Margaret_Hamilton.png" alt="Margaret Hamilton">
@@ -77,10 +78,30 @@
         </section>
 
         <section id="topics">
+            <h2>Algunos de nuestros temas</h2>
+            <div class="topics-container">
+                <div>
+                    <img src="assets/icon1.svg" alt="icon related to computer science">
+                    <h3>Trabajo remoto</h3>
+                </div>
+                <div>
+                    <img src="assets/icon2.svg" alt="icon related to computer science">
+                    <h3>Repensando la programación</h3>
+                </div>
+                <div>
+                    <img src="assets/icon3.svg" alt="icon related to computer science">
+                    <h3>Bases de código</h3>
+                </div>
+                <div>
+                    <img src="assets/icon4.svg" alt="icon related to computer science">
+                    <h3>Seguridad informática</h3>
+                </div>
+            </div>
         </section>
 
         <section id="news">
-        
+            <h2>¿Querés las últimas novedades?</h2>
+            <button>Escucha los episodios</button>
         </section>
 
     </main>
