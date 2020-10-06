@@ -1,10 +1,27 @@
 @media screen and (min-width: 320px){
+    
+    .about-us-image-container{
+        width: 100%;
+    }
     .about-us-image{
-        width: 50%;
+        width: 100%;
+        margin-top: -200px;
+        position: relative;
     }
     .about-us-info{
         margin-top: 30px;
-        width: 40%;
+        width: 100%;
+    } 
+    .about-us-info-title{
+        margin-right: 120px;
+        font-size: 36px;
+    }
+    .about-us-info-text{
+        margin-right: 20px;
+        margin-top: 24px;
+        font-size: 14px;
+        width: 288px;
+        height: 254px;
     }
 }
 

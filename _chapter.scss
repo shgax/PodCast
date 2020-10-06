@@ -3,10 +3,23 @@
 
 @media screen and (min-width: 320px){
     #chapter{
+        h2{
+            padding-top: 50px;
+            margin-bottom: 30px;
+            font-size: 48px;
+            font-weight: 100;
+            color: white;
+            font-family: 'IBM Plex Sans', monospace;
+            letter-spacing: 0;
+            }
         iframe{
-            padding: 40px 80px; 
-            width: 298px;
-            height: 225px;
+            width: 100%;
+            height: 160px;
+            margin: 5px;
+        }
+        .chapter-grid{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
         }
     }
 

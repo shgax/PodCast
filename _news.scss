@@ -1,6 +1,52 @@
 @media screen and (min-width: 320px){
-
+    #news{
+    padding-bottom: 30px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    h2{
+    margin-top: 40px;
+    padding-top: 40px;
+    font-size: 36px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+    }
+    }
+    button {
+        width: 100%;    
+    }
 }
-@media screen and (min-width: 1220px){
-    
+@media screen and (min-width: 1440px){
+    #news {
+        padding-bottom: 40px;
+        height: 518px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 70px;
+        
+        button {
+
+        height: 46px;
+        margin-left: 400px;
+        width: 30%;    
+           
+        }
+    }
+    .news-tittle{
+        padding-top: 120px;
+        color:white;
+        width: 100%;
+        height: 62px;
+        margin-left: 100px;
+        border: none;
+        font-size: 48px;
+        letter-spacing: 0;
+        font-family: 'IBMPlex Sans', sans-serif;
+
+    }
+    .news-content{
+        text-align: center;
+    }
 }
