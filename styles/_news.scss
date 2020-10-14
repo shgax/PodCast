@@ -1,0 +1,107 @@
+@media screen and (min-width: 320px){
+    #news{
+    padding-bottom: 30px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    h2{
+    margin-top: 40px;
+    padding-top: 40px;
+    font-size: 36px;
+    font-family: 'IBM Plex Mono', monospace;
+    text-align: center;
+    color: #FFFFFF;
+    width: 100%;
+
+    transform: skewY(6deg);
+    }
+    }
+    button {
+        width: 100%;    
+    }
+    .btn-news{
+          
+        width: 290px;
+        height: 50px;
+        margin: 20px;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 24px;
+        transform: skewY(3deg);
+        font-family: 'IBM Plex Mono';
+        text-align: center;
+        text-transform: uppercase;
+        color: #060A24;
+        border: none;
+        text-decoration: none;
+        background: #00F3BB;
+    &:hover {
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color:#FFFFFF;
+        cursor: pointer;
+        }
+    }
+}
+@media screen and (min-width: 1440px){
+    #news {
+        padding-bottom: 40px;
+        height: 518px;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        button {
+        margin-top: 100px;
+        height: 46px;
+        width: 30%;    
+        }
+        h2{
+            margin-top: 40px;
+            padding-top: 200px;
+            font-size: 36px;
+            font-family: 'IBM Plex Mono', monospace;
+            text-align: center;
+            color: #FFFFFF;
+            width: 100%;
+            }
+    }
+    .news-tittle{
+        width: 100%;
+        height: 62px;
+        margin-left: 10px;
+        font-size: 48px;
+        letter-spacing: 0;
+        transform: skewY(6deg);
+        border: none;
+        color:white;
+        font-family: 'IBMPlex Sans', sans-serif;
+
+    }
+    .btn-news{
+          
+        width: 226px;
+        height: 50px;
+        margin-left: 200px;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 24px;
+        transform: skewY(6deg);
+        font-family: 'IBM Plex Mono';
+        text-align: center;
+        text-transform: uppercase;
+        color: #060A24;
+        border: none;
+        text-decoration: none;
+        background: #00F3BB;
+    &:hover {
+        background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+        color:#FFFFFF;
+        cursor: pointer;
+        }
+    }
+    .news-content{
+        text-align: center;
+    }
+}
